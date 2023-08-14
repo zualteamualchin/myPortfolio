@@ -13,11 +13,12 @@ export const Navbar = () => {
     h-[80px]
     flex
     justify-between
-    items-center  bg-[#282828] px-4 text-gray-300 '
+    items-center  bg-black px-4 text-gray-300 
+    border-b-2'
     >
         {/* //LOGO */}
         <div>
-            <img src={Logo} alt='Logo Image' style={{width:'50px'}} />
+            <h1 className=' cursor-pointer select-none text-[#E38989] text-[1.3rem] font-extrabold'> &lt; ZUALTEA MUALCHIN /&gt;</h1>
         </div>
         {/* //MENU BAR */}
         <ul className='hidden md:flex '>
@@ -40,22 +41,22 @@ export const Navbar = () => {
         <div className={nav?' hidden lg:flex fixed  flex-col top-[35%] left-0 text-slate-100 ':' hidden lg:flex fixed  flex-col top-[35%] left-0 text-slate-100 '}>
             <ul>
                 <li className='w-[150px] h-[60px] items-center flex justify-between ml-[-100px] hover:ml-[-10px] duration-500 bg-gray-700 ' >
-                    <a className='flex justify-between items-center w-full' >
+                    <a href='https://github.com/zualteamualchin'  className='flex justify-between items-center w-full' >
                         Github<FaGithub/>
                     </a>
                 </li>
                 <li className='w-[150px] h-[60px] items-center flex justify-between ml-[-100px] hover:ml-[-10px] duration-500 bg-[#5795ff] ' >
-                    <a className='flex justify-between items-center w-full' >
+                    <a href='https://www.linkedin.com/in/lalhmangaihzuala/' className='flex justify-between items-center w-full' >
                         Linkedin<FaLinkedin/>
                     </a>
                 </li>
                 <li className='w-[150px] h-[60px] items-center flex justify-between ml-[-100px] hover:ml-[-10px] duration-500 bg-[#ff6f6f] ' >
-                    <a className='flex justify-between items-center w-full' >
+                    <a href='https://www.instagram.com/502zz.zz._______/' className='flex justify-between items-center w-full' >
                         Instagram<FaInstagram/>
                     </a>
                 </li>
                 <li className='w-[150px] h-[60px] items-center flex justify-between ml-[-100px] hover:ml-[-10px] duration-500 bg-[#a2a227] ' >
-                    <a className='flex justify-between items-center w-full' >
+                    <a href='https://www.snapchat.com/add/choco_bytee?share_id=U3v0V4LEjpM&locale=en-GB' className='flex justify-between items-center w-full' >
                         Snapchat<FaSnapchat/>
                     </a>
                 </li>     

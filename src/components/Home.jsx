@@ -1,6 +1,7 @@
 import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi';
 import pp from '../assets/pp.jpg'
+import { Link } from 'react-scroll';
 
 export const Home = () => {
   return (
@@ -12,13 +13,15 @@ export const Home = () => {
             </p>
             <h1 className='text-[#e38989] text-4xl sm:text-4xl lg:text-6xl font-extrabold ' >LALHMANGAIHZUALA</h1>
             <br/>
-            <h2 className='text-2xl  font-bold' >FULL STACK DEVELOPER</h2>
-            <h3>I do full stack development, MERN stack is my current technology.</h3>
-        <div>
-          <button className=' border-[1.5px] mt-3 group py-3 px-6 hover:bg-[#e38989] flex items-center' >
-             About 
-          <HiArrowNarrowRight className='ml-3 group-hover:rotate-90 duration-300'/></button>
-        </div>
+            <h2 className='text-2xl  font-bold' >FRONT-END DEVELOPER</h2>
+            <h3>I do full front development, REACTJS is my current technology.</h3>
+          <Link to='about' smooth={true} duration={500} >
+            <div>
+              <button className=' border-[1.5px] mt-3 group py-3 px-6 hover:bg-[#e38989] flex items-center' >
+                About 
+              <HiArrowNarrowRight className='ml-3 group-hover:rotate-90 duration-300'/></button>
+            </div>
+          </Link>
             
         </div>
         <div className='hidden lg:{ max-h-[500px] self-center}' >
