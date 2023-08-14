@@ -21,7 +21,7 @@ export const Skills = () => {
                 <div className='shadow-md shadow-[#e38989] p-4 flex flex-col items-center justify-center gap-4 hover:scale-110 cursor-pointer duration-300 '><img className='w-[50px] h-[50px] sm:w-[100px] sm:h-[100px]' src={HTML} alt="" />HTML</div>
                 <div className='shadow-md shadow-[#e38989] p-4 flex flex-col items-center justify-center gap-4 hover:scale-110 cursor-pointer duration-300 '><img className='w-[50px] h-[50px] sm:w-[100px] sm:h-[100px]' src={ReactImg} alt="" />REACT.JS</div>
                 <div className='shadow-md shadow-[#e38989] p-4 flex flex-col items-center justify-center gap-4 hover:scale-110 cursor-pointer duration-300'><img className='w-[50px] h-[50px] sm:w-[100px] sm:h-[100px]' src={JavaScript} alt="" />JAVASCRIPT</div>
-                <div className='shadow-md shadow-[#e38989] p-4 flex flex-col items-center justify-centergap-4 hover:scale-110 cursor-pointer duration-300'><img className='w-[50px] h-[50px] sm:w-[100px] sm:h-[100px]' src={CSS} alt="" />CSS</div>
+                <div className='shadow-md shadow-[#e38989] p-4 flex flex-col items-center justify-center gap-4 hover:scale-110 cursor-pointer duration-300'><img className='w-[50px] h-[50px] sm:w-[100px] sm:h-[100px]' src={CSS} alt="" />CSS</div>
             </div>
             <br/>
             <div className='grid p-4 w-full grid-cols-2 sm:grid-cols-4 gap-8' >

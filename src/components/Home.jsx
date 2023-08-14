@@ -14,7 +14,7 @@ export const Home = () => {
             <h1 className='text-[#e38989] text-2xl sm:text-4xl lg:text-6xl font-extrabold ' >LALHMANGAIHZUALA</h1>
             <br/>
             <h2 className='text-2xl  font-bold' >FRONT-END DEVELOPER</h2>
-            <h3>I do full front development, REACTJS is my current technology.</h3>
+            <h3>I do frontend development, REACTJS is my current technology.</h3>
           <Link to='about' smooth={true} duration={500} >
             <div>
               <button className=' border-[1.5px] mt-3 group py-3 px-6 hover:bg-[#e38989] flex items-center' >
