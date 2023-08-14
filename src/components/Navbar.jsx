@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaInstagram, FaSnapchat} from 'react-icons/fa'
-import Logo from '../assets/logo.png'
+
 import * as Scroll from 'react-scroll';
 var Link = Scroll.Link;
 export const Navbar = () => {
@@ -14,7 +14,7 @@ export const Navbar = () => {
     flex
     justify-between
     items-center  bg-black px-4 text-gray-300 
-    border-b-2'
+    '
     >
         {/* //LOGO */}
         <div>
@@ -33,10 +33,10 @@ export const Navbar = () => {
             {nav?(<FaBars/>):(<FaTimes/>)}
         </div>
             <ul className={nav ? 'hidden':'absolute w-full flex flex-col items-center justify-center h-screen top-0 left-0 bg-[#282828]'}>
-            <li onClick={handleNav} className='py-6 text-4xl'><li><Link to='about' duration={500} smooth={true} >About</Link></li></li>
-            <li className='py-6 text-4xl'><li><Link to='education' duration={500} smooth={true} >Education</Link></li></li>
-            <li className='py-6 text-4xl'><li><Link to='skills' duration={500} smooth={true} >Skills</Link></li></li>
-            <li className='py-6 text-4xl'><li><Link to='contact' duration={500} smooth={true} >Contact</Link></li></li>
+            <li className='py-6 text-4xl'><li><Link onClick={handleNav} to='about' duration={500} smooth={true} >About</Link></li></li>
+            <li className='py-6 text-4xl'><li><Link onClick={handleNav} to='education' duration={500} smooth={true} >Education</Link></li></li>
+            <li className='py-6 text-4xl'><li><Link onClick={handleNav} to='skills' duration={500} smooth={true} >Skills</Link></li></li>
+            <li className='py-6 text-4xl'><li><Link onClick={handleNav} to='contact' duration={500} smooth={true} >Contact</Link></li></li>
         </ul>
         <div className={nav?' hidden lg:flex fixed  flex-col top-[35%] left-0 text-slate-100 ':' hidden lg:flex fixed  flex-col top-[35%] left-0 text-slate-100 '}>
             <ul>

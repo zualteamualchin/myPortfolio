@@ -12,8 +12,8 @@ import Mongo from '../assets/mongo.png';
 export const Skills = () => {
   return (
     <div name="skills" className='w-full h-screen bg-black text-[#ffffff] text-[10px] sm:text-[15px] '>
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-            <div className=''>
+        <div className='max-w-[1000px] mx-auto px-4 p-4 flex flex-col justify-center w-full h-full'>
+            <div className='px-4'>
                 <h1 className='text-5xl font-extrabold border-b-4 border-[#e38989] inline'>Skills</h1>
                 <p className='mt-4 text-1xl'>//  The current Technologies I'm working with...</p>
             </div>

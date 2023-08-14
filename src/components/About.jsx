@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 export const About = () => {
   return (
     <div  name='about' className='w-full h-screen bg-[black] text-white'> 
-        <div className=' flex flex-col justify-center items-center w-full h-full' >
+        <div className=' flex flex-col p-4 justify-center items-center w-full h-full' >
             <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8' >
                 <div className=' text-5xl pl-4 font-extrabold inline text-left md:text-right '>
                     <h1 className=' border-b-4 border-[#e38989] inline '>About</h1>
@@ -23,7 +23,7 @@ export const About = () => {
                     
                 </div>
                 <div className='' >
-                <p>Hello, my name is Angela, and I believe that focusing on your company's data security plan is essential to growing your company's business. With over 10 years of experience in information and data security, my knowledge and skills can help you create effective security strategies. My dedication to creating comprehensive data security plans can also help your company improve its data integrity and increase customer retention.</p>
+                <p>Hello, my name is Lalhmangaihzuala. All I do as a tech is frontend development with reactJS as my current tech stack. I believe I could help you out on your projects as I'm giving my best effort wherever i worked. So, if you trust me and want to collaborate for some projects, I am ready to help you.</p>
                 </div>
             </div>
         </div>

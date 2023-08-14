@@ -6,12 +6,12 @@ import { Link } from 'react-scroll';
 export const Home = () => {
   return (
     <div name='home' className='w-full h-screen bg-[black] ' >
-      <div className='  h-full max-w-[1000px] flex justify-center text-[#ffffff]' >
+      <div className='h-full  max-w-[1000px] flex justify-center text-[#ffffff]' >
         <div className=' h-full flex justify-center flex-col mx-auto px-8 '>
             <p className='text-2xl' >
               My name is
             </p>
-            <h1 className='text-[#e38989] text-4xl sm:text-4xl lg:text-6xl font-extrabold ' >LALHMANGAIHZUALA</h1>
+            <h1 className='text-[#e38989] text-2xl sm:text-4xl lg:text-6xl font-extrabold ' >LALHMANGAIHZUALA</h1>
             <br/>
             <h2 className='text-2xl  font-bold' >FRONT-END DEVELOPER</h2>
             <h3>I do full front development, REACTJS is my current technology.</h3>
